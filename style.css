@@ -4,9 +4,9 @@
 
 
 
-* {
-    
-    
+.container{
+    width: 100%;
+
 }
 
 
@@ -14,51 +14,336 @@
 
 
 /*header*/
+
+
+#huddle {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 63px;
+    top: -1px;
+}
+
+
 .btn- {
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
     color: hsl(322, 100%, 66%);
     background-color: transparent;
     position: absolute;
     left: 90%;
     border-color: hsl(322, 100%, 66%);
-    ;
     padding: 5px 20px;
     border-radius: 20px;
+    outline: none;
 }
 
 
 
-header h1 {
+.header- h1 {
     color: hsl(192, 100%, 9%);
     font-family: 'Poppins', sans-serif;
-   font-size: 2.4rem;
+    font-size: 2.4rem;
     position: relative;
+    width: 102%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 288px;
+    padding-top: 200px;
 
 }
 
 header p {
     font-family: 'Poppins', sans-serif;
     color: hsl(192, 100%, 9%);
-   width: 400px;
-   left: 470px;
-   position: relative;
+    width: 400px;
+    left: 470px;
+    position: relative;
 }
 
 div .header- p {
     position: relative;
-    width: 500;
-    height: 500px;
+    width: 410px;
+    height: 194px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.header- button{
-    padding: 20px;
-    box-shadow: 20;
+.butao-header {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 35px;
+    position: relative;
+    background-color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    color: white;
+    display: flex;
+    margin-bottom: 76px;
+    align-items: center;
+    justify-content: center;
+    left: 550px;
+    outline: none;
 }
+
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 300px;
+    width: 790px;
+}
+
+
+/*main*/
+
+
+/*main 14k+*/
+
+main .comunidade h1 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 3rem;
+   
+
+}
+
+main .comunidade p {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: .8rem;
+    position: relative;
+    top: -21px;
+   
+}
+
+main .comunidade{
+    width: 10%;
+    position: relative;
+    left: 325px;
+    top: -15px;
+}
+
+/*main 14k+*/
+
+/*main 7.3m*/
+
+main .message h1 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 3rem;
+   
+}
+
+
+main .message p {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: .8rem;
+    position: relative;
+    top: -21px;
+    
+}
+
+
+main .message{
+    width: 10%;
+    position: relative;
+    left: 726px;
+    top: -156px;
+
+}
+
+/*main 7.3m*/
+
+main .grow-together {
+    background-color: hsl(207, 100%, 98%);
+    margin-top: 2px hsl(207, 100%, 98%);
+
+}
+
+main #onda-main-baixo{
+    width: 100%;
+}
+
+#onda-cima {
+    width: 100%;
+    position: relative;
+    top: 28px;
+}
+
+
+.grow-header{
+    position: relative;
+    width: 100%;
+    top: 149px;
+    left: 19px;
+}
+
+main .grow-together h1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(207, 100%, 98%);
+    color: hsl(192, 100%, 9%);
+    font-size: 1.8rem;
+   
+}
+
+
+#bg-section-top-desktop-1 {
+    position: relative;
+    background-color: hsl(207, 100%, 98%);
+    background: transparent;
+    left: 500px;
+    width: 700px;
+}
+
+.grow-together p {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: .9rem;
+    width: 500px;
+    background-color: hsl(207, 100%, 98%);
+   
+}
+
+/*grow-together*/
+
+
+/*Flowing Conversations*/
+
+
+main .Flowing-Conversations {
+    padding-top: 99px;
+    
+}
+
+main .Flowing-Conversations h1 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 1.8rem;
+    width: 317px;
+    left: 743px;
+    top: -384px;
+    position: relative;
+}
+
+main .Flowing-Conversations p {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: .9rem;
+    width: 378px;
+    left: 731px;
+    top: -384px;
+    position: relative;
+}
+
+main .Flowing-Conversations img {
+    width: 700px;
+
+}
+
+main .Flowing h1 p{
+    width: 100%;
+}
+
+
+/*Flowing Conversations*/
+
+
+
+/*Your Users*/
+
+div .your-users{
+    max-height: 770px;
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 2px;
+}
+
+main .onda-cima  {
+    width: 700px;
+    position: relative;
+    left: 615px;
+}
+
+main .onda-baixo{
+    width: 100%;
+    position: relative;
+    top: 93px;
+}
+
+main #onda-meio{
+    width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+div .your-users h1{
+
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 1.8rem;
+    width: 400px;
+}
+
+div .your-users p{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: .9rem;
+    width: 500px;
+
+}
+ div .posicao {
+     position: relative;
+     top: 213px;
+    left: 29px;
+ }
+
+
+/*Your Users*/
+
+
+/*ready comunity*/
+
+
+
+
+div .ready-community{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+   justify-content: center;
+    position: relative;
+    width: 39%;
+    align-items: center;
+    left: 401px;
+    top: 200px;
+}
+
+div .ready-community h1{
+    font-size: 1.8rem;
+}
+
+
+div .ready-community button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    left: 100px;
+    top: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 17px  36px;
+    border-radius: 30px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
