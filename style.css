@@ -120,6 +120,17 @@ main .comunidade p {
 
 }
 
+main .comunidade img{
+    position: relative;
+    top: 55px;
+}
+
+main .comunity-icon{
+    position: relative;
+}
+
+
+
 main .comunidade {
     width: 10%;
     position: relative;
@@ -148,12 +159,17 @@ main .message p {
 
 }
 
+main .messages-icon{
+    position: relative;
+    top: 62px;
+    right: 20px;
+}
 
 main .message {
     width: 10%;
     position: relative;
     left: 726px;
-    top: -156px;
+    top:-215px;
 
 }
 
